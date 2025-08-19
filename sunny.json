@@ -1,8 +1,11 @@
 {
   "type": "micro",
-  "version": 2,
   "wake_word": "sunny",
-  "model": "./sunny.tflite",
+  "author": "Mihai",
+  "website": "https://www.vdv.dev/",
+  "model": "sunny.tflite",
+  "trained_languages": ["ro"],
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 5,
