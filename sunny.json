@@ -2,7 +2,7 @@
   "type": "micro",
   "version": 2,
   "wake_word": "sunny",
-  "model": "https://raw.githubusercontent.com/mihai-vaduva/ha/main/sunny.tflite",
+  "model": "./sunny.tflite",
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 5,
