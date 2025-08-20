@@ -4,13 +4,13 @@
   "author": "Mihai",
   "website": "https://www.vdv.dev/",
   "model": "https://raw.githubusercontent.com/mihai-vaduva/ha/refs/heads/main/sunny.tflite",
-  "trained_languages": ["ro"],
+  "trained_languages": ["en", "ro"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 40000,
+    "tensor_arena_size": 64000,
     "minimum_esphome_version": "2024.7"
   }
 }
