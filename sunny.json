@@ -1,16 +1,18 @@
 {
   "type": "micro",
   "wake_word": "sunny",
-  "author": "Mihai",
-  "website": "https://www.vdv.dev/",
-  "model": "https://raw.githubusercontent.com/mihai-vaduva/ha/refs/heads/main/sunny.tflite",
-  "trained_languages": ["en"],
+  "author": "",
+  "website": "",
+  "model": "https://github.com/mihai-vaduva/ha/raw/refs/heads/main/sunny.tflite",
+  "trained_languages": [
+    "ro"
+  ],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 5,
     "feature_step_size": 10,
-    "tensor_arena_size": 64000,
+    "tensor_arena_size": 56000,
     "minimum_esphome_version": "2024.7"
   }
 }
