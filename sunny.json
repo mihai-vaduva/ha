@@ -4,7 +4,7 @@
   "author": "Mihai",
   "website": "https://www.vdv.dev/",
   "model": "https://raw.githubusercontent.com/mihai-vaduva/ha/refs/heads/main/sunny.tflite",
-  "trained_languages": ["en", "ro"],
+  "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
