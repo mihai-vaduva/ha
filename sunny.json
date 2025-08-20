@@ -1,12 +1,10 @@
 {
   "type": "micro",
   "wake_word": "sunny",
-  "author": "",
-  "website": "",
+  "author": "Mihai",
+  "website": "https://vdv.dev",
   "model": "https://github.com/mihai-vaduva/ha/raw/refs/heads/main/sunny.tflite",
-  "trained_languages": [
-    "ro"
-  ],
+  "trained_languages": ["en", "ro"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
